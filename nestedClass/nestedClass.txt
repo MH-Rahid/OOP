@@ -1,0 +1,24 @@
+// nestedClass:
+define a class within a another class its called nested class.
+
+//syntax - 
+class OuterClass
+{
+...
+    class NestedClass
+    {
+        ...
+    }
+}
+
+// type of nested class:
+1. static nested class - Nested classes that are declared static 
+are called static nested classes
+
+2. inner class - An inner class is a non-static nested class.
+
+a. method local inner class - A class defined within a method 
+is called a method-local inner class.
+
+b. anonymous inner class - An anonymous inner class is a class without a name and is
+instantiated on the fly
