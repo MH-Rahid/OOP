@@ -1,3 +1,5 @@
+package nestedClass;
+
 class OuterClass {
     private String message = "Hello form outer class ";
 
@@ -11,7 +13,7 @@ class OuterClass {
     InnerClass inner = new InnerClass();
 }
 
-public class nestedInnerClass {
+public class InnerClass {
     public static void main(String[] args) {
         // OuterClass outer = new OuterClass();
         // OuterClass.InnerClass inner = outer.new InnerClass();
@@ -20,7 +22,7 @@ public class nestedInnerClass {
         // OuterClass.InnerClass in = new OuterClass().new InnerClass();
         // in.display();
 
-        // OuterClass outer = new OuterClass();
-        // outer.inner.display();
+        OuterClass outer = new OuterClass();
+        outer.inner.display();
     }
 }
